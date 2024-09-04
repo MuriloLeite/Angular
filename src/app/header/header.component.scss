@@ -1,0 +1,53 @@
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    right: 0px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Espaça os itens entre o início e o fim do cabeçalho */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+}
+
+.header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+app-header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o cabeçalho fique acima do conteúdo */
+}

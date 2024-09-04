@@ -1,0 +1,145 @@
+/* pagina-principal.component.css */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  .promotions {
+    margin-bottom: 40px;
+  }
+  
+  .promotions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .promotion-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .promotion-card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .promotion-info {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .promotion-info h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .promotion-info p {
+    color: #666;
+  }
+  
+  .promotion-info .price {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .about {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .gallery {
+    margin-bottom: 40px;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .contact-cta {
+    text-align: center;
+  }
+  
+  .contact-cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-cta p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .contact-cta .cta-button {
+    margin-top: 20px;
+  }
+  
